@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    enum DaysOfTheWeek { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY }
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            DaysOfTheWeek day = DaysOfTheWeek.valueOf(scanner.next());
+            int numLetters;
+
+            // Put switch expression here
+            System.out.println(numLetters);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17589#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 02 Feb 2022 22:52:09 UTC
+record: -1
